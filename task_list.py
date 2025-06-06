@@ -6,11 +6,13 @@ Created on Mon Jun  2 19:09:24 2025
 
 ##NOTES##
 NEED TO INCORPORATE JSON
-    -unable to write python list to JSON file
+    -need to write json_rep function for Task obj
     
 
 
-DEVELOP CLI-USER EXPERIENCE                                             
+DEVELOP CLI-USER EXPERIENCE  
+    -clean up, it's ugly af
+    -need to write task_list_options function                                           
 
 """
 
