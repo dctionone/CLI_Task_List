@@ -107,10 +107,7 @@ class Task_List(Task):
         for task in self.tasks:
             if task.get_id() == task_id:
                 task.set_status(status_num)
-                task.update_time()
-            else:
-                print('No Task Found')
-        
+                task.update_time()      
         
     def print_status(self, status):
         for task in self.tasks:
